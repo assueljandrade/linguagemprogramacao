@@ -7,8 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel = "stylesheet" href = "CSS/style.css">
+        <link rel="stylesheet" href="CSS/Exercicio1.css">
         <script src="js/scripts.js"></script>   
- 
+        
     </head>
     <body>
         <div class="sidebar">
@@ -26,14 +27,20 @@
                 <li> <a href="exercicio8.html"> Exercício 8 </a> </li>
                 <li> <a href="exercicio9.html"> Exercício 9 </a> </li>
                 <li> <a href="exercicio10.html"> Exercício 10 </a> </li>
+
             </ul>
         </div>
         <div class="container"> 
             <div class="card">
-                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl53_7bIsqtp5EjYge1Z3o4Nlu9FnZVrCCMw&s" alt="Foto do perfil"/>
-                <h2> Assuel J. Andrade</h2>
-                <p> ADS </p>
-                <button onclick="seguir()"> Seguir </button>
+                <h1> Exercício 4</h1>
+                <form>
+                    <label> Nota 1</label>
+                    <input type="number" id="nro8" />
+                    <label> Nota 2</label>
+                    <input type="number" id="nro9" />
+                    <button onclick="exe4()" type="button"> Calcular </button>
+                    <label id="media"> O resultado é:  </label>
+                </form>
             </div>
         </div>
     </body>
